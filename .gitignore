@@ -1,5 +1,4 @@
-P2024/bin/Debug/
-P2024/obj/
-P2024/.vs/
-Data/obj/
-Data/bin/
+Debug/
+.vs/
+obj/
+bin/
