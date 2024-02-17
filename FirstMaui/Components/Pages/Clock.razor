@@ -1,0 +1,34 @@
+﻿@page "/clock"
+
+<h1>当前时间</h1>
+<p>时: @hour 分钟: @minute 秒: @second</p>
+
+@code {
+    private int hour;
+    private int minute;
+    private int second;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        StartTimer();
+    }
+
+    private async void StartTimer()
+    {
+        while (true)
+        {
+            await Task.Delay(1000); // 等待一秒
+            UpdateTime();
+            StateHasChanged(); // 通知界面更新
+        }
+    }
+
+    private void UpdateTime()
+    {
+        DateTime now = DateTime.Now;
+        hour = now.Hour;
+        minute = now.Minute;
+        second = now.Second;
+    }
+}
