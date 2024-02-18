@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34607.119
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstMaui", "FirstMaui.csproj", "{21E4DE87-5AD9-4EEC-B4AA-F0DE774F38A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeKnowApp", "FreeKnowApp.csproj", "{21E4DE87-5AD9-4EEC-B4AA-F0DE774F38A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

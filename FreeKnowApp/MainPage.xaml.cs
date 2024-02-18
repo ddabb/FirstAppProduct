@@ -1,4 +1,4 @@
-﻿namespace FirstMaui
+﻿namespace FreeKnowApp
 {
     public partial class MainPage : ContentPage
     {

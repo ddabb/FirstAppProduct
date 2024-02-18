@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace FirstMaui
+namespace FreeKnowApp
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

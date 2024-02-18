@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace FirstMaui
+namespace FreeKnowApp
 {
     public static class MauiProgram
     {
