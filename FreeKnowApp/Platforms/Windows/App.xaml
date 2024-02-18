@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="FirstMaui.WinUI.App"
+    x:Class="FreeKnowApp.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:FirstMaui.WinUI">
+    xmlns:local="using:FreeKnowApp.WinUI">
 
 </maui:MauiWinUIApplication>
