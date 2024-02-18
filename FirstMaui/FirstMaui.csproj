@@ -16,6 +16,7 @@
         <OutputType>Exe</OutputType>
         <RootNamespace>FirstMaui</RootNamespace>
         <UseMaui>true</UseMaui>
+		<WindowsAppSdkDeploymentManagerInitialize>false</WindowsAppSdkDeploymentManagerInitialize>
         <SingleProject>true</SingleProject>
         <ImplicitUsings>enable</ImplicitUsings>
         <EnableDefaultCssItems>false</EnableDefaultCssItems>
